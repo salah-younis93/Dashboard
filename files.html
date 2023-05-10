@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/Dash.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Files</title>
+</head>
+<body>
+    <div class="page d-flex ">
+        <div class="sidebar p-20 bg-white p-rel">
+        <h3 class="p-rel txt-c mt-0">SalaH</h3>
+        <ul>
+            <li>
+                <a href="dashboard.html" class="d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-solid fa-chart-line fa-fw"></i>
+                <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="Settings.html" class="d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-solid fa-gear fa-fw"></i>
+                <span>Setting</span>
+                </a>
+            </li>
+            <li>
+                <a href="profile.html" class="d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="projects.html" class="d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="courses.html" class="d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                <span>Courses</span>
+                </a>
+            </li>
+            <li>
+                <a href="friends.html" class="d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-solid fa-user-group fa-fw"></i>
+                <span>Friends</span>
+                </a>
+            </li>
+            <li>
+                <a href="files.html" class="active d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-solid fa-file-code fa-fw"></i>
+                <span>Files</span>
+                </a>
+            </li>
+            <li>
+                <a href="plans.html" class="d-flex align-center fs-14 c-black p-10 rad-6">
+                <i class="fa-regular fa-credit-card fa-fw"></i>
+                <span>Plans</span>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div class="content w-full">
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-rel">
+                    <input type="search" class="p-10 rad-10" placeholder="Search">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notify p-rel">
+                        <a href="friends.html">
+                            <i class="fa-regular fa-bell fa-lg c-black"></i>
+                        </a>
+                    </span>
+                    <a href="profile.html"><img src="/imag/avatar.png" alt=""></a>
+                </div>
+            </div>
+            <h1 class="p-rel">Files</h1>
+            <div class="files d-flex m-20 gap-20">
+                <div class="stats bg-white rad-10 p-20">
+                    <h2 class="mt-0 mb-15 txt-c-mobile">Files Statistics</h2>
+                    <div class="d-flex align-center border-eee p-20 rad-6 mb-15 fs-13">
+                        <i class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon"></i>
+                        <div class="info">
+                            <span>PDF Files</span>
+                            <span class="c-gray d-block mt-5">150</span>
+                        </div>
+                        <div class="size c-gray">6.5GB</div>
+                    </div>
+                    <div class="d-flex align-center border-eee p-20 rad-6 mb-15 fs-13">
+                        <i class="fa-regular fa-images fa-lg green center-flex c-green icon"></i>
+                        <div class="info">
+                            <span>Images Files</span>
+                            <span class="c-gray d-block mt-5">100</span>
+                        </div>
+                        <div class="size c-gray">36.15GB</div>
+                    </div>
+                    <div class="d-flex align-center border-eee p-20 rad-6 mb-15 fs-13">
+                        <i class="fa-regular fa-file-word fa-lg red center-flex c-red icon"></i>
+                        <div class="info">
+                            <span>Word Files</span>
+                            <span class="c-gray d-block mt-5">50</span>
+                        </div>
+                        <div class="size c-gray">11.5GB</div>
+                    </div>
+                    <div class="d-flex align-center border-eee p-20 rad-6 mb-15 fs-13">
+                        <i class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon"></i>
+                        <div class="info">
+                            <span>CSV Files</span>
+                            <span class="c-gray d-block mt-5">250</span>
+                        </div>
+                        <div class="size c-gray">16.0GB</div>
+                    </div>
+                    <a class="upload bg-blue c-white fs-13 rad-6 d-block w-fit" href="#">
+                        <i class="fa-solid fa-angles-up mr-10"></i>
+                        Upload
+                    </a>
+                </div>
+                <div class="download d-grid gap-20">
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/pdf.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.pdf</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/06/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/avi.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.avi</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/12/2020</span>
+                                <span>1.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/dll.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.dll</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>08/10/2020</span>
+                                <span>15.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/eps.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.esp</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>03/03/2019</span>
+                                <span>8.0MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/zip.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.zip</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>20/09/2022</span>
+                                <span>7.5MB</span>
+                            </div>
+                        </div>
+                    <div class=" file bg-white p-20 rad-10 p-rel">
+                            <i class="fa-solid fa-download c-gray"></i>
+                            <div class="icon txt-c">
+                                <img class="mt-15 mb-15" src="/imag/psd.svg" alt="">
+                            </div>
+                            <div class="txr c mb-10 fs-14">My File.psd</div>
+                            <p class="c-gray fs-13">Salah</p>
+                            <div class="foot c-gray between-flex mt-10 pt-10">
+                                <span>15/03/2023</span>
+                                <span>2.5MB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+            
